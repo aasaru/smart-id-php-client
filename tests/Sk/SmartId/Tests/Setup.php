@@ -40,7 +40,7 @@ class Setup extends TestCase
    */
   protected $client;
 
-  protected function setUp()
+  protected function setUp() : void
   {
     $this->client = new Client();
     $this->client

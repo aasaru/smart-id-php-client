@@ -9,7 +9,7 @@ The Smart-ID PHP client can be used for easy integration of the Smart-ID solutio
 ## Features
 * Simple interface for user authentication
 
-Smart-ID PHP client works with PHP 7.2 or later.
+Smart-ID PHP client is tested to work with PHP 7.2 and PHP 8./vendor/bin/phpunit tests.0 and might work with newer.
 
 **This PHP client cannot be used to create digitally signed containers because PHP does not have a library like DigiDoc4J..**
 
@@ -40,5 +40,11 @@ $this->client
 
 ## How to use it
 Take a look at the [examples](https://github.com/SK-EID/smart-id-php-client/wiki/Examples-of-using-it)
+
+## How to run tests
+
+composer update     
+➜ ./vendor/bin/phpunit tests
+
 
 [Composer]: http://getcomposer.org
